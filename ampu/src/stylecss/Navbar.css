@@ -1,0 +1,131 @@
+.nav{
+    
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+}
+.header1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    
+}
+.fa{
+    font-size: 25px;
+    padding-right: 20px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+}
+.header{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 15%;
+    margin-left: 3%;
+}
+.header h3{
+    color: white;
+}
+.search{
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.search input{
+    height: 30px;
+    width: 140px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+ul{
+    list-style:none;
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+ul li Link{
+    text-decoration: none;
+    text-size-adjust: auto;
+}
+a h3
+{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+li a h3::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: orange;
+    margin: auto;
+    display: block;
+}
+li a h3:hover{
+    color: orange;
+}
+li a h3:hover::after{
+    color: orange;
+    width: 100%;
+    transition: width 0.3s linear;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top:   40%;
+    right: 3%;
+    width: 220px;
+    
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.active{
+    max-height: 550px;
+}
+.sub-menu-wrap.inactive{
+    max-height: 0px;
+}
+.sub-menu h4{
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+}
+.sub-menu{
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+    margin: 10px;
+    font-size: 15px;
+    transition: font-size 0.5s;
+}
+
+.sub-menu-wrap.open-menu{
+    max-height:400px;
+}
+.sub-menu h4::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: orange;
+    margin: auto;
+    display: block;
+
+}
+.sub-menu h4:hover::after{
+    color: orange;
+    width: 100%;
+    transition: width 0.3s linear;
+}
+.sub-menu h4:hover{
+    color: orange;
+}

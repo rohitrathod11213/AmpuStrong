@@ -1,0 +1,49 @@
+/* *{
+    
+    color: white;
+} */
+
+.signup-page{
+    padding-top: 120px ;
+    color: white;
+    background-image: "url('./images/img12.jpeg')";
+}
+::placeholder{
+    color: white;
+}
+:-ms-input-placeholder{
+    color: black;
+}
+ .signup-page-container{
+    display: flex;
+    height: 400px;
+    
+}
+.signup-page-container-cont, .signup-page-container-content{
+    width: 50%;
+    height: auto;
+}
+.signup-page-container-cont img{
+    
+    width: 80%;
+    margin-left: 20%;
+    height: 100%;
+}
+
+.signup-page-container-content-form{
+    height: 300px;
+    width: 60%;
+    margin-bottom: 11%;
+    padding: 70px 20px 30px 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)); 
+    /* box-shadow: 5px 5px 5px 5px rgba(248, 246, 246, 1); */
+}
+.input{
+    border-radius: 20px;
+    border-width: 2px;
+    color: white;
+    border-color: black;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+}

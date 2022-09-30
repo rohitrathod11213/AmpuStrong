@@ -1,0 +1,503 @@
+.back-img img{
+    width: 100%;
+    /* height: 700px; */
+    padding-top: 70px;
+    /* margin-bottom: 100px; */
+}
+.back-img{
+    margin: 0px;
+    /* height: 700px; */
+    /* margin-bottom: 50px; */
+}
+.about--us{
+    background-color: black;
+    color: white;
+    height: auto;
+}
+.about--us h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 350;
+    color: white;
+    margin: 0px;
+    padding: 30px 0px 20px 0px;
+}
+.about--us h4{
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 250;
+    padding: 0px 21% 70px 21%;
+}
+.Features{
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+.Features h4,h1{
+    font-weight: 400;
+}
+.container-box{
+    display: flex;
+    color: white;
+}
+.container-box1{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+}
+.container-box-img{
+    width: 83%;
+    height: 450px;
+}
+.container-box-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-box-content{
+    background-color: rgb(47, 45, 45);
+    padding-left: 100px;
+    padding-top: 70px;
+    width: 71%;
+}
+.container-box-content h2,h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+
+.container-box-content p{
+    margin-right: 40px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 65%;
+}
+.container-box-content span{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+}
+.container-box-content-cont{
+    padding: 0px;
+    width: 80%;
+    text-align: justify;
+}
+.contact-us ,.contact-us-page{
+    display: flex;
+}
+.contact-us-details{
+    text-align: center;
+    width: 60%;
+}
+.contact-us-details-content{
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+}
+.contact-us-details-content h1{
+    font-size: 40px;
+    font-weight: 450;
+}
+.contact-us-details-content h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+.contact-us-form{
+    width: 50%;
+    padding: 50px 50px 20px 50px;
+}
+.contact-us-form .inp{
+    width: 35%;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-color: white;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    color: white;
+    border: 0px 0px 2px 0px;
+}
+::placeholder{
+    color: white;
+}
+:-ms-input-placeholder{
+    color: white;
+}
+.contact-us-form textarea{
+    background-color: black;
+    margin-top: 30px;
+    border: 0px 0px 2px 0px;
+    border-style: solid;
+    border-width: 2px;
+    width: 80%;
+    border-bottom-color: white;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+}
+.contact-us-page{
+    padding: 100px;
+}
+.Button{
+    width: 80%;
+    background-color: white;
+    height: 40px;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+/*  bookappointment  */
+.services{
+    padding-top: 50px;
+    height: 580px;
+    background-color: white;
+    background-size: cover;
+    color: rgb(255, 252, 252);
+}
+.box-container-box1 h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.box-container-box1{
+    background-color: black;
+    margin: 0px 300px 0px 300px;
+    height: 600px;
+    width: 60%;
+}
+.box-container-box1-content{
+    display: flex;
+    margin: 0px 12% 0px 12%;
+}
+.box-container-box1-content-box1{
+    height: 400px;
+    width: 300px;
+    margin-right: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.box-container-box1-content-box1 img{
+    width: 300px;
+    height: 180px;
+}
+.box-container-box1-content-box1 div{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.box-container-box1-content-box1 button{
+    width: 100px;
+    height: 40px;
+}
+
+
+
+/* About us css  */
+
+.about-us{
+    background-color: rgb(36, 36, 36);
+    padding-top: 160px;
+    color: white;
+}
+.about-us-heading h1{
+    text-align: center;
+    font-size: 40px;
+}
+.about-us-content{
+    margin: 0px 240px 0px 240px;
+    text-align: center;
+}
+.about-us-content h4{
+    text-align: center;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 0;
+}
+
+/* Faqs */
+
+.faq{
+    padding-top: 180px;
+    align-items: center;
+}
+.faq-heading h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 350;
+    color: white;
+}
+.faq-content h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 0px 200px 0px 200px;
+}
+
+.faq-img img{
+    width: 100%;
+}
+.faq-cont h4{
+    margin-bottom: 100px;
+}
+.faq-img-cont{
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+}
+
+footer{
+    text-align: center;
+
+}
+.Slider{
+    display: flex;
+    justify-content: space-around;
+}
+.control-dots{
+    margin: 0 0 2% 45%;
+}
+.carousel-wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.carousel-wrapper img{
+    height: 600px;
+}
+
+/*  team */
+.teamate{
+    padding-top: 150px;
+}
+.team-img img{
+    width: 300px;
+    height: 300px;
+    clip-path: circle(64.7% at 60% 23%);
+
+}
+.teamate-team-box{
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color:rgba(255,255,255,0.8);
+}
+.team-cont h1,h3{
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+.team{
+    display: flex;
+    margin: 0px 20% 0% 10%;
+}
+
+
+/* profile  */
+
+.profile-page{
+    background-color: white;
+    height:auto;
+    padding-top: 100px;
+}
+.profile{
+    margin: 0% 15% 0% 15%;
+    width: 70%;
+    background-color: rgb(187, 242, 224);
+}
+.profile-photo-img{
+    margin: 80px 30px 0px 50px;
+}
+.profile-photo-img img{
+    width: 120px;
+    height: 120px;
+    
+    border-radius: 50%;
+}
+.fas{
+    margin: 30px 0px 0px 30px;
+}
+ .fa-fas{
+    margin-left: 50%;
+    font-size: 20px;
+}
+.profile-coontainer{
+    display: flex;
+}
+.profile-container{
+    background-color: black;
+}
+.profile-photo-details{
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.profile-photo-details h3{
+    margin: 0px;
+    text-align:left;
+}
+.profile-photo-details span{
+    margin: 0px 10px 0px 0px;
+}
+.profile-photo-details i{
+    position: absolute;
+    right: 15%;
+    color: black;
+}
+.profile-photo-details button{
+    position: absolute;
+    right: 20%;
+}
+.view-profile{
+    width: 150px;
+    height: 35px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: transparent;
+}
+
+ul{
+    list-style:none;
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+ul li Link{
+    text-decoration: none;
+    text-size-adjust: auto;
+}
+ h4
+{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+}
+li h4::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: orange;
+    margin: auto;
+    display: block;
+}
+li h4:hover{
+    color: orange;
+}
+li h4:hover::after{
+    color: orange;
+    width: 100%;
+    transition: width 0.3s linear;
+}
+.profile-container hr{
+    
+    margin: 0px 20px 0px 20px;
+}
+.profile-container-content{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.profile-container-content button{
+    position: absolute;
+    right: 20%;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    background-color: transparent;
+}
+.profi{
+    font-size: 30px;
+    font-weight: 400;
+}
+.profile-container-content form h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.profile-container-content form textarea{
+    background-color: transparent;
+    border-width: 0.2px;
+    color: white;
+    border-style: solid;
+}
+
+
+
+.C-container{
+    margin: 0 auto;
+    width: 60%;
+    height: 400px;
+    position: relative;
+}
+.C-slides{
+    display: flex;
+    height: 100%;
+}
+.C-slide{
+    min-width: 100%;
+}
+.C-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.thumbs-wrapper.axis-vertical{
+    margin: 0 0 0 40%;
+}
+
+
+/* blogs */
+.blog-page{
+    padding-top: 90px;
+    background-color: white;
+}
+.blog-page-cont{
+    margin: 0 200px 0 200px;
+    background-color: black;
+    padding: 30px;
+}
+.blog-container-box{
+    border: 1px solid white;
+    display: flex;
+}
+.blog-container-box-img{
+    width: 50%;
+    position: relative;
+}
+.blog-container-box-img img{
+    width: 100%;
+    height: 100%;
+}
+.profile-box-cont{
+    display: flex;
+    align-items: center;
+}
+.profile-box-cont img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.blog-container-box-content{
+    padding: 40px;
+    width: 50%;
+}
+.blog-container-box-content-cont-h5 h5{
+    margin: 0;
+    
+}
+.blog-container-box-content-cont-h5{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-container-box-content-cont-h5 i{
+    color: red;
+}
