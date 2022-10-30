@@ -11,6 +11,9 @@ import img7 from './images/img7.jpeg';
 import img8 from './images/img8.jpeg';
 import img4 from './images/img4.jpeg';
 import Contact from './Contact';
+
+
+
 export default function Home(){
     return(
         <div>

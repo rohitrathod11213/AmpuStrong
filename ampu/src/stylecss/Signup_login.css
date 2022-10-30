@@ -47,3 +47,20 @@
     background-color: transparent;
     text-align: center;
 }
+.button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s ease;
+    color: white;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
