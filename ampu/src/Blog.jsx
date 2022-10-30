@@ -5,88 +5,31 @@ import img13 from './images/img13.jpeg'
 import onli from './images/onli.jpg'
 import { FaEllipsisV} from 'react-icons/fa';
 import { FaHeart } from 'react-icons/fa'
+import axios from 'axios';
+import { useState, useEffect } from 'react'
+import Post from './Post.jsx'
+
+
 export default function Blog(){
+
+    const [blogs, setBlogs] = useState([]);
+
+    useEffect(() => {
+        const fetchBlogs = async() => {
+            const res = await axios.get('http://localhost:5000/api/posts');
+            setBlogs(res.data);
+        }
+        fetchBlogs();
+    }, [])
+
     return(
-        <section className='blog-page'>
+        <section className="blog-page">
             <div className="blog-page-cont">
             <h1>All Posts</h1>
-            <div className="blog-container">
-                <div className="blog-container-box">
-                    <div className="blog-container-box-img">
-                        <img src={img11} alt="" />
-                    </div>
-                    <div className="blog-container-box-content">
-                    <div className="profile-box-cont">
-                        <img src={onli} alt="" />
-                        <div className="profile-box-contt">
-                        <span>anushkarane118</span>
-                        <br />
-                        <span>1 minute ago</span>
-                        </div>
-                        <i className='fa fa-fas'><FaEllipsisV/></i>
-                    </div>
-                    <div className="blog-container-box-content-cont">
-                        <h2>Now You Can Blog from Everywhere</h2>
-                        <h4>We've made it quick and convenient for you to manage you blog from anywhere. In this blog post, we'all share the ways you can post to your wix blog.Blogging from the ...</h4>
-                        <br /><br /><hr />
-                        <div className='blog-container-box-content-cont-h5'><h5>2 views   0 comments </h5>
-                        <i><FaHeart/></i></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <br /><br />
-            <div className="blog-container">
-                <div className="blog-container-box">
-                    <div className="blog-container-box-img">
-                        <img src={img12} alt="" />
-                    </div>
-                    <div className="blog-container-box-content">
-                    <div className="profile-box-cont">
-                        <img src={onli} alt="" />
-                        <div className="profile-box-contt">
-                        <span>anushkarane118</span>
-                        <br />
-                        <span>1 minute ago</span>
-                        </div>
-                        <i className='fa fa-fas'><FaEllipsisV/></i>
-                    </div>
-                    <div className="blog-container-box-content-cont">
-                        <h2>Now You Can Blog from Everywhere</h2>
-                        <h4>We've made it quick and convenient for you to manage you blog from anywhere. In this blog post, we'all share the ways you can post to your wix blog.Blogging from the ...</h4>
-                        <br /><br /><hr />
-                        <div className='blog-container-box-content-cont-h5'><h5>2 views   0 comments </h5>
-                        <i><FaHeart/></i></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <br/><br/>
-            <div className="blog-container">
-                <div className="blog-container-box">
-                    <div className="blog-container-box-img">
-                        <img src={img13} alt="" />
-                    </div>
-                    <div className="blog-container-box-content">
-                    <div className="profile-box-cont">
-                        <img src={onli} alt="" />
-                        <div className="profile-box-contt">
-                        <span>anushkarane118</span>
-                        <br />
-                        <span>1 minute ago</span>
-                        </div>
-                        <i className='fa fa-fas'><FaEllipsisV/></i>
-                    </div>
-                    <div className="blog-container-box-content-cont">
-                        <h2>Now You Can Blog from Everywhere</h2>
-                        <h4>We've made it quick and convenient for you to manage you blog from anywhere. In this blog post, we'all share the ways you can post to your wix blog.Blogging from the ...</h4>
-                        <br /><br /><hr />
-                        <div className='blog-container-box-content-cont-h5'><h5>2 views   0 comments </h5>
-                        <i><FaHeart/></i></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
+            {blogs.map((p) => (
+                <Post post={p} />
+            ))}
+            
             <footer style={{width:'100%'}}>
                 <h1>AmpuStrong</h1>
             </footer>
