@@ -156,7 +156,7 @@ export default function Ecommerce() {
         </div>
       </div>
       <footer>
-        <h1>AmpuStrong</h1>
+        <h1>Ampustrong</h1>
       </footer>
     </div>
   );
