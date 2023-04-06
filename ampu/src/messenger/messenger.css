@@ -1,0 +1,98 @@
+#messenger{
+    
+    color: black;
+    background-color: white;
+}
+.messenger{
+    padding-top: 100px;
+    padding-bottom: 0px;
+    height: 80vh;
+    display: flex;
+}
+.chatmenu{
+    flex: 3.5;
+}
+.chatbox{
+    flex: 5.5;
+}
+.chatOnline{
+    flex: 3;
+}
+.chatmenuwrapper,.chatboxwrapper,.chatonlinewrapper{
+    padding:10px;
+    height: 100%;
+}
+.chatmenuwrapper input{
+    padding-left: 20px;
+}
+.chatmenuinput{
+    width: 90%;
+    padding: 10px 0;
+    border:none;
+    border-bottom: 1px solid black;
+}
+.chatmenuwrapper input::placeholder{
+    color: black;
+}
+.chatmenuwrapper input:-ms-input-placeholder{
+    color: black;
+}
+.chatmenuwrap{
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.chatboxbottom textarea::placeholder{
+    color: black;
+}
+.chatboxbottom textarea:-ms-input-placeholder{
+    color: black;
+}
+.chatboxtop{
+    height: 80%;
+    overflow-y: scroll;
+}
+.chatboxbottom{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.chatmessagetext{
+    width: 80%;
+    height: 80px;
+    margin: 10px;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.md{
+    outline: none;
+    font-size: 25px;
+    color: blue;
+}
+.chatonlinewrapper{
+    overflow-y: scroll;
+    height: 80%;
+}
+.chaticon{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 10px;
+}
+.chaticon h2{
+    margin: 0;
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.chaticon{
+    font-size: 20px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+}

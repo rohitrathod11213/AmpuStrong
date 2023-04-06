@@ -1,0 +1,31 @@
+.chatonlinefriend{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+.chatonlinefriend:hover{
+    background-color: grey;
+    color: white;
+}
+.chatonlineimgcont{
+    position: relative;
+}
+.chatonlineimg{
+    width: 80%;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chatonlinecotent{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    top: 3px;
+    right:8px;
+}

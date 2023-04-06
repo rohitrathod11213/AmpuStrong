@@ -1,0 +1,233 @@
+.profiledivision{
+    padding-top: 80px;
+    background-color: rgb(215, 215, 215);
+    height: 100%;
+}
+/* .profiledivision1{
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 12%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 500px;
+    background-color: white;
+    padding: 0;
+    box-shadow: 5px 5px 5px rgb(218, 218, 218);
+    position: fixed;
+} */
+.profileimgcont img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 30%;
+    /* margin-left: 26%; */
+}
+.profiledivision1 div h3{
+    margin: 0;
+}
+.profiledivision1div hr{
+    width: 100%;
+}
+.profilesidemenu ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.profilesidemenu{
+    width: 100%;
+    /* position: absolute; */
+}
+.profilesidemenu ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 10px 10px;
+    display: flex;
+    outline: none;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 20px;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(231, 231, 231);
+    transition: 0.3s max-width ease ;
+}
+.profilesidemenu ul a{
+    text-decoration: none;
+    color: black;
+}
+.profilesidemenu ul li:hover{
+    background-color: rgb(57, 57, 57);
+    box-shadow: 8px 8px 8px rgb(164, 164, 164);
+    transition: box-shadow 0.5s ease;
+    color: white;
+}
+.profiledivision2{
+    display: flex;
+    flex: 1;
+    border: 1px solid rgb(250, 245, 245);
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+    min-height: 500px;
+    /* display: flex; */
+
+}
+.profiledivision2 div{
+    
+    padding: 10px 20px;
+}
+.disable{
+    cursor:not-allowed;
+    color: black;
+}
+.profilehead{
+    display: flex;
+}
+.profilehead h3{
+    margin: 0;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    width: 150px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    clip-path: polygon(0% 0%, 92% 0, 100% 50%, 92% 100%, 0% 100%);
+}
+
+.basicinfodetailhead{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.basicinfodetail{
+    width: 40%;
+}
+.basicinfodetail label{
+    color: black;
+}
+.basicinfodetail input{
+    width: 400px;
+    height: 30px;
+    padding: 10px ;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 3px 3px 3px rgb(164, 164, 164);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.basicinfodetails{
+    width: 100%;
+    margin: 0 7%;
+}
+.basicinfodetails textarea{
+    padding: 20px;
+    width: 89%;
+    outline: none;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 3px 3px 3px rgb(164, 164, 164);
+
+}
+::placeholder{
+    color: rgb(150, 150, 150);
+}
+:-ms-input-placeholder{
+    color: rgb(152, 152, 152);
+}
+.profileheader{
+    padding: 10px;
+}
+.selectregister{
+    width: 89%;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 3px 3px 3px rgb(164, 164, 164);
+}
+.buttonregister button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+.profileimg{
+    height: 130px;
+    width: 98%;
+}
+.profileimg img{
+    height: 100%;
+    width: 100%;
+}
+.profileimg2{
+    height: 150px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 150px;
+}
+.profileimg2 img{
+    height: 100%;
+    width: 100%;
+}
+.profile_details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile_details h3,.profile_detail h3{
+    width: 150px;
+    margin: 0;
+    color: rgb(72, 72, 72);
+    font-weight: 400;
+}
+.profile_details h4{
+    width: 300px;
+    margin: 0;
+    text-align: justify;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 600;
+    
+}
+.profile_detail h4{
+    text-align: justify;
+    color: rgb(47, 47, 47);
+}
+.profile_part1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profiledivision div h2{
+    padding-left: 50px;
+}
+.address{
+    width: 100vh;
+    border: 1px solid rgb(76, 76, 76);
+    padding-right: 20px;
+}
+
+
+.editpic{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   gap: 50px;
+}
+.editpic label{
+    color: black;
+}
+.editpic label span{
+    font-size: 40px;
+}
+.picimg{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,76 @@
+.write {
+  padding-top: 90px;
+    margin: 0 15% 0 15%;
+  }
+  
+  
+.inputtext input::placeholder{
+    color: black;
+}
+.inputtext input:-ms-input-placeholder{
+    color: black;
+}
+.textinput,.titleinput::placeholder{
+  color: rgb(222, 222, 222);
+}
+.titleinput{
+  border: none;
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: white;
+  width: 95%;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textareainput{
+  background-color: transparent;
+  outline: none;
+  color: white;
+  width: 95%;
+  height: 40vh;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.uploadfile{
+  width: 100px;
+  height: 30px;
+  color: rgb(14, 13, 13);
+  background-color: rgb(254, 250, 250);
+  padding: 5px;
+  margin: 15px 0 15px 0;
+}
+.bloghead{
+  /* background-image: url("../images/blog (2).jpg"); */
+  
+  width: 70%;
+  color: rgb(13, 13, 13);
+  margin: 0;
+  
+  width: 100%;
+}
+.bloghead img{
+  width:100%;
+}
+.bloghead h2{
+  margin-left: 40px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttonblog{
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: rgb(38, 38, 232);
+  color: white;
+}
+
+.buttonblog:hover{
+  background-color: white;
+  color: black;
+}
+.blogimg{
+  width: 100%;
+  margin-top: 30px;
+}
