@@ -13,11 +13,11 @@ router.post("/", async (req, res) => {
 });
 //get all appointment
 router.get("/",async(req,res)=>{
-  const username=req.query.user;
+  const docuser=req.query.docuser;
   try {
     let appoint;
-    if (username) {
-      appoint = await Appointment.find({ username });
+    if (docuser) {
+      appoint = await Appointment.find({docusername: docuser});
     }else {
       appoint = await Appointment.find();
     }
