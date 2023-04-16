@@ -1,33 +1,10 @@
 import "../stylecss/Home.css";
 import "../stylecss/Navbar.css";
-import img10 from "../images/img10.jpeg";
-import img9 from "../images/img9.jpeg";
-import { useContext } from "react";
-import axios from "axios";
-import { Context } from "../context/Context";
 import Navbar1 from "./navbar1";
 import Navbar from "./Navbar";
+import BookappointBox from "./BookappointBox.jsx";
 
 export default function Bookapp() {
-  const { user } = useContext(Context);
-  const username = user.username;
-  const profile = user.profilePic;
-
-  const handleBooking = async (title, duration, cost) => {
-    try {
-      await axios.post("http://localhost:5001/api/appointments", {
-        title,
-        duration,
-        cost,
-        username,
-        profile,
-      });
-      alert("Appointment booked successfully");
-    } catch (err) {
-      console.log(err);
-      alert("Couldn't book the appointment");
-    }
-  };
 
   return (
     <>
@@ -41,36 +18,13 @@ export default function Bookapp() {
       <div className="box-container-box1">
         <h1>Our Services</h1>
         <div className="box-container-box1-content">
-          <div className="box-container-box1-content-box1">
-            <img src={img10} alt="logo" />
-            <div>
-              <h2>Physiotherapy</h2>
-              <hr />
-              <span>1 hr</span>
-              <h4>Rs 1,300</h4>
-              <button
-                style={{ backgroundColor: "white" }}
-                onClick={() => handleBooking("Physiotherapy", 1, 1300)}
-              >
-                Book Now
-              </button>
-            </div>
-          </div>
-          <div className="box-container-box1-content-box1">
-            <img src={img9} alt="logo" />
-            <div>
-              <h2>Psychotherapy</h2>
-              <hr />
-              <span>1 hr</span>
-              <h4>Rs 1,500</h4>
-              <button
-                style={{ backgroundColor: "white" }}
-                onClick={() => handleBooking("Psychotherapy", 1, 1500)}
-              >
-                Book Now
-              </button>
-            </div>
-          </div>
+          <BookappointBox title="Physiotherapy" appointDate="April 25, 2022 14:00" duration="1" cost="1300" docusername="anushka" />
+          <BookappointBox title="Psychotherapy" appointDate="April 25, 2022 15:00" duration="1" cost="1200" docusername="krishna" />
+          <BookappointBox title="Physiotherapy" appointDate="April 26, 2022 15:00" duration="1" cost="1000" docusername="anushka" />
+          <BookappointBox title="Physiotherapy" appointDate="April 26, 2022 17:00" duration="1" cost="900" docusername="anushka" />
+          <BookappointBox title="Psychotherapy" appointDate="April 27, 2022 13:00" duration="1" cost="1000" docusername="krishna" />
+          <BookappointBox title="Physiotherapy" appointDate="April 27, 2022 13:00" duration="1" cost="1000" docusername="anushka" />
+
         </div>
       </div>
     </div>

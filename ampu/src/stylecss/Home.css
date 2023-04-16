@@ -191,7 +191,6 @@ form span{
 /*  bookappointment  */
 .services{
     padding-top: 50px;
-    height: 580px;
     background-color: white;
     background-size: cover;
     color: rgb(255, 252, 252);
@@ -203,17 +202,17 @@ form span{
 .box-container-box1{
     background-color: black;
     margin: 0 15% 0 15%;
-    height: 600px;
     width: auto;
 }
 .box-container-box1-content{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0px 12% 0px 12%;
 }
 .box-container-box1-content-box1{
-    height: 400px;
-    width: 50%;
-    margin-right: 30px;
+    width: 40%;
+    margin: 30px;
     border-width: 1px;
     border-style: solid;
     border-color: white;
