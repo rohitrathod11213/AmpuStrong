@@ -11,6 +11,9 @@ const appointmentRoute = require("./routes/appointments");
 const conversationRoute = require("./routes/conversation");
 const messageRoute = require("./routes/message");
 const editRoute = require("./routes/personal");
+const cartRoute = require("./routes/carts");
+const productRoute = require("./routes/products");
+const orderRoute = require("./routes/order");
 
 const multer = require("multer");
 const path = require("path");
@@ -69,6 +72,9 @@ app.use("/api/appointments", appointmentRoute);
 app.use("/api/conversation", conversationRoute);
 app.use("/api/message", messageRoute);
 app.use("/api/personal", editRoute);
+app.use("/api/cart", cartRoute);
+app.use("/api/products", productRoute);
+app.use("/api/order", orderRoute);
 
 /* starting the server */
 app.listen("5001", () => {
