@@ -1,4 +1,7 @@
 .section_pros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 130px;
     background-color: white;
     min-height: 490px;
@@ -15,6 +18,7 @@
     /* gap:"100px"; */
 }
 .ecommercecont{
+    position: relative;
     width: 250px;
     margin: 20px;
     min-height: 300px;
@@ -29,7 +33,7 @@
     width: 250px;
     opacity: 0;
     color: white;
-    height: 380px;
+    height: calc(100% - 20px);
     display: flex;
     align-items: center;
     flex-direction: column;
