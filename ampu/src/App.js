@@ -23,6 +23,8 @@ import Appointment from "./therapist/appoint/Appointment";
 import Ecommerce from "./ecommerce/ecommerce";
 import Proddetail from "./ecommerce/proddetail";
 import Mycart from "./ecommerce/mycart";
+import MyAppointment from "./pages/Appointment";
+
 function App() {
   return (
     <Router>
@@ -46,6 +48,7 @@ function App() {
         <Route exact path="/mycart" element={<Mycart/>}/>
         <Route exact path="/ecommerce" element={<Ecommerce/>}/>
         <Route exact path="/proddet" element={<Proddetail/>}/>
+        <Route exact path="/myappointments" element={<MyAppointment/>}/>
       </Routes>
     </Router>
   );

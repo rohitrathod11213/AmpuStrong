@@ -109,6 +109,9 @@ export default function Navbar1(){
                       <Link to="/mycart">
                         <h4>My Cart</h4>
                       </Link>
+                      <Link to="/myappointments">
+                        <h4>My Appointments</h4>
+                      </Link>
 
                       {/* <hr /> */}
                     </div>
